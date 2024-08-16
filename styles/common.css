@@ -78,10 +78,23 @@ header .lnb .m_nav span:nth-child(3) {
     transform: rotate(-45deg);
     transform-origin: left top;
 } */
-header .m_nav_wrap {display: none;}
+header .m_nav_wrap {
+    background-color: #222;
+    position: fixed; right: 0; top: 80px; z-index: 999;
+    height: 100vh; width: 280px;
+}
 header .m_nav_wrap .gnb {}
-header .m_nav_wrap .gnb > li {}
-header .m_nav_wrap .gnb > li > a {}
-header .m_nav_wrap .gnb > li > .sub {}
+header .m_nav_wrap .gnb > li {
+    margin-top: 20px;
+    padding: 0 0 20px 20px;
+    border-bottom: 1px solid #333;
+}
+header .m_nav_wrap .gnb > li:first-child {margin-top: 20px;}
+header .m_nav_wrap .gnb > li > a {color: #fff;}
+header .m_nav_wrap .gnb > li > .sub {margin-top: 15px;}
 header .m_nav_wrap .gnb > li > .sub li {}
-header .m_nav_wrap .gnb > li > .sub li a {}
+header .m_nav_wrap .gnb > li > .sub li a {
+    color: #ccc;
+    font-size: 0.88rem; font-weight: 300;
+    line-height: 1.8;
+}
