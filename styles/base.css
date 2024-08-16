@@ -1,0 +1,16 @@
+/* reset */
+*{box-sizing: border-box;}
+html, body, h1, h2, h3, h4, h5, h6, p,
+ul, ol, li, dl, dt, dd, blockquote, q, video, img,
+table, tr, td, thead, tfoot, tbody,
+form, fieldset, legend, input, textarea, button, select, option, label,
+div, section, article, header, nav, main, aside, footer, address,
+figure, figcaption, sup, sub, em, strong, span, i, del, s, a, code, mark{
+    margin: 0; padding: 0; line-height: 1.0;
+    font-size: 1.0em; font-weight: 400; font-style: normal;
+    color: #000; font-family: "Noto Sans KR", sans-serif; /* 글꼴 이름에 공백, 한글이 있을 시 "" 사용 O / sans-serif는 없어서 사용 X */
+    list-style: none;
+}
+a{text-decoration: none;}
+table, tr, td, th{border-collapse: collapse;}
+button{cursor: pointer;}
